@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kepler Simulation</title>
+	<link rel="stylesheet" type="text/css" href="Kepler.css">
+</head>
+<body>
+
+
+<div id="divMain" class="row">
+	<div id="divSimulation" class="column">
+		<h2>Simulation</h2>
+		<canvas id="cvMain" width="400" height="400">Hier müsste ein Canvas sein. Wenn nicht verwende einen anderen Browser.</canvas>
+	</div>
+	<div id="divSettings" class="column">
+		<h2>Settings</h2>
+		<table class="settings">
+			<tr>
+				<td>Width:</td>
+				<td><input type="range" id="inWidth" value="30" class="slider"></td>
+				<td id="outWidth">400</td>
+			</tr>
+			<tr>
+				<td>Height:</td>
+				<td><input type="range" id="inHeight" value="30" class="slider"></td>
+				<td id="outHeight">400</td>
+			</tr>
+			<tr>
+				<td>Scale:</td>
+				<td><input type="range" id="inScale" value="50" class="slider"></td>
+				<td id="outScale">1</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+
+<!-- <table>
+	<thead>
+		<tr>
+			<th>Simulation</th>
+			<th>Settings</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><canvas id="cvMain" width="400" height="400">Hier müsste ein Canvas sein. Wenn nicht verwende einen anderen Browser.</canvas></td>
+			<td valign="top"><table class="settings">
+				<tr>
+					<td>Width:</td>
+					<td><input type="range" id="inWidth" value="30" class="slider"></td>
+					<td id="outWidth">400</td>
+				</tr>
+				<tr>
+					<td>Height:</td>
+					<td><input type="range" id="inHeight" value="30" class="slider"></td>
+					<td id="outHeight">400</td>
+				</tr>
+			</table></td>
+		</tr>
+	</tbody>
+</table> -->
+
+</body>
+
+<script src="Kepler.js"></script>
+
+</html>

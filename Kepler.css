@@ -1,0 +1,35 @@
+canvas {
+	border: 1px solid black;
+}
+
+.slider {
+	width: 300px;
+}
+
+.settings {
+	vertical-align: top;
+}
+
+#divMain {
+
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+#divSimulation {
+	width: 70%;
+}
+
+#divSettings {
+	width: 30%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
